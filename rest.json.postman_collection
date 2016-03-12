@@ -1,0 +1,156 @@
+{
+	"id": "531687c4-f378-6a1c-0e31-81d651dbd1d2",
+	"name": "rest",
+	"description": "",
+	"order": [
+		"7e0ad5e4-e83b-dd64-3e72-9de47b8f3414",
+		"42620aa6-2cce-faa9-d6f1-14e8ac6919ac",
+		"e27fea1e-9661-727b-ca9d-b75eea1d674d",
+		"4c1e7162-703f-62a8-18a8-ba865393e5ad",
+		"d5aa0996-2869-9361-1667-2469bbb17ee0"
+	],
+	"folders": [],
+	"timestamp": 1457774961265,
+	"owner": 0,
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "42620aa6-2cce-faa9-d6f1-14e8ac6919ac",
+			"headers": "",
+			"url": "http://rest.app/items/1",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "531687c4-f378-6a1c-0e31-81d651dbd1d2",
+			"data": [],
+			"dataMode": "params",
+			"name": "/items/{id}",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1457775027529,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "4c1e7162-703f-62a8-18a8-ba865393e5ad",
+			"headers": "",
+			"url": "http://rest.app/items/1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "amg",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "asdasdasd",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1457776170686,
+			"name": "/items/{id}",
+			"description": "",
+			"collectionId": "531687c4-f378-6a1c-0e31-81d651dbd1d2",
+			"responses": []
+		},
+		{
+			"id": "7e0ad5e4-e83b-dd64-3e72-9de47b8f3414",
+			"headers": "",
+			"url": "http://rest.app/items",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "531687c4-f378-6a1c-0e31-81d651dbd1d2",
+			"data": [],
+			"dataMode": "params",
+			"name": "/items",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1457774996008,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d5aa0996-2869-9361-1667-2469bbb17ee0",
+			"headers": "",
+			"url": "http://rest.app/items/6",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "DELETE",
+			"collectionId": "531687c4-f378-6a1c-0e31-81d651dbd1d2",
+			"data": [
+				{
+					"key": "name",
+					"value": "amg",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "asdasdasd",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "/items/{id}",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1457776193580,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e27fea1e-9661-727b-ca9d-b75eea1d674d",
+			"headers": "",
+			"url": "http://rest.app/items",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "asdasdasd",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "fasfasfdsaf",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1457776164022,
+			"name": "/items",
+			"description": "",
+			"collectionId": "531687c4-f378-6a1c-0e31-81d651dbd1d2",
+			"responses": []
+		}
+	]
+}
